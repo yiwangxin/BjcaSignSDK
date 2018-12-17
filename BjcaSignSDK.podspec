@@ -26,8 +26,10 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+s.description  = <<-DESC
+                    here is description.
+                    DESC
+
 #项目主页地址
   s.homepage     = "https://github.com/XingXiaoWu/BjcaSignSDK"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
