@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+ 
+<head>
+	
+	<title>手写签名</title>
+	
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<link rel="stylesheet" href="css/draw.css" type="text/css" media="screen, projection" />
+	<script src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/draw.js"></script>
+	<script>$(function(){
+	  $(".btncon .op").click(function(){
+	    
+	    $(this).addClass("on").siblings().removeClass("on");
+	    
+	  });
+	  $(".colcon .colspan").click(function(){
+	    
+	    $(this).addClass("on").siblings().removeClass("on");
+	    
+	  });
+	});</script>
+</head>
+
+<body style="background:#fff;">
+
+    <div id="work_area" class="editing_area pull-left" >
+       <canvas  id="myCanvas" style="width:100%;height:100%;"></canvas>
+       <img id='signImg' style="width:100%;height:100%;" src="css/image/write.png"/>
+     </div>
+    
+     <!--div class="list-group-item media" style="height:15%;background:#f0eff5;border-style:none;border-top:1px solid #98979d; display:block"-->
+      <div class="list-group-item media" style="background:#fff;border-style:none;border-top:2px dashed #EFF0EF; display:block;padding: 10px 0 0px 15px;position: absolute;bottom: 0px;left: 2%;width:calc(96% - 10px);">          
+          <a style="display:block;">
+         	<div class="tabletd" style="width:25%;text-aglin:right; float: right;">         
+	         	<div class="colcon" id="input_button">
+		             <span class="colspan i2 on"><input class="btncol" type="button" id="setRed" checked="checked" /></span>
+		             <span class="colspan i3"><input class="btncol" type="button" id="setBlue" /></span>
+	           	</div>
+			</div>
+         
+          	<div style="float: left; width: 50%;">
+          		<div class="pull-left btncon">
+		            <span class="op pen1 on"><input type="radio" id="middle" checked="checked" /></span>
+		            <span class="op pen2"><input type="radio" id="fat" /></span>
+		            <i class="borleft"></i>
+		            <button class="op dele" id="refresh"></button> 
+		            <button class="op save" id="save" style="display:none;"></button>           	 
+		        </div>          		
+          	</div>
+           	<div class="btncon" style="width:50%;float:left; padding-left: 20%;"><a class="" style="color:white;display:block;padding-bottom:12px; color: #0073c8;"  ng-click="openCaptureSign()"> 
+         
+    </a></div>
+	      </a> 
+      </div>
+   
+</body>
+
+</html>

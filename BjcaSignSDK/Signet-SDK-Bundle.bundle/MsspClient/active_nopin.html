@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=1, user-scalable=no">
+<link rel="stylesheet" href="css/sdk20.css" />
+<link rel="stylesheet" href="../ywxTheme/nativeTheme.css" />
+<script src="js/jquery.js"></script>
+<script src="js/sdk20.js"></script>
+<script src="js/MsspClient.js"></script>
+<script src="js/activePin.js"></script>
+</head>
+
+<body>
+<div class="sdk_title common_title_theme">
+	<p class="sdk_title_return"><a href="Javascript:signSettingBack();">取消</a></p>
+	用户激活
+</div>
+<div class="clear txtcenter" style="position:relative"><div class="ywqimgtp"><img src="images/ywqlogo.png" class="ywqimg"></div><p class="sdk_title_down_p"><span class="grey999">已发送<span style="color:#e51c23">验证码</span>到您手机</span><br><span id="sdkActivePhoneNumber" class="sdk_phonenumber_color" style="color:#e51c23"></span> <span id="sdk_time" style="color:#e51c23">60 秒</span></p></div>
+<div class="sdk_content">
+	<div class="sdk_content_line">
+    	<div class="sdk_content_l_1">验证码</div>
+        <div class="sdk_content_l_r"><input type="tel" name="otp" id="otp" placeholder="输入您收到的短信验证码" class="sdk_input3" maxlength="6" oninput="sdkPanduan(3,6)"></div>
+        <div class="sdk_tishi sdk_ts3">请输入6位验证码</div>
+    </div>
+    <div class="clearkit"></div>
+</div>
+<div class="sdk_content_btn"><input type="button" onclick="activeUser()" value="激活" class="btn-primary common_button_theme" disabled="disabled"></div>
+</body>
+</html>
