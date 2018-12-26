@@ -35,19 +35,11 @@ typedef NS_ENUM(NSInteger,BjcaBusinessType) {
     BjcaBusinessSignList,
 //    二维码业务
     BjcaBusinessQrCode,
-//    用户信息
-    BjcaBusinessUserInfo,
 //    免密开启
     BjcaBusinessFreePin,
+//    用户信息
+    BjcaBusinessUserInfo,
 //    查看证书详情
     BjcaBusinessCertDetail,
 };
-
-//// 免密时间
-//typedef NS_ENUM(NSInteger,BjcaFreePinTime) {
-////    7天
-//    BjcaSevenDay,
-////    30天
-//    BjcaThirtyDay,
-//};
 #endif /* BjcaPublicConst_h */

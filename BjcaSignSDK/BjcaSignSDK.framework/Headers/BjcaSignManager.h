@@ -113,17 +113,20 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)bjcaUserInfo:(NSString *)clientId;
 
 
+
 /**
- 打开证书详情页
+  打开证书详情页
 
  @param clientId 第三方对应的clientId
  @param viewCtrl 当前活跃的ctrl
+ @param navColor 导航栏颜色，可为nil
+ @param fontColor 导航栏字体颜色，可为nil
  */
 - (void)bjcaCertDetail:(NSString *)clientId curViewCtrl:(UIViewController*)viewCtrl navColor:(UIColor * _Nullable)navColor navFontColor:(UIColor * _Nullable)fontColor;
 #pragma mark - 工具类
 
 /**
- 获取当前类地址
+ 获取当前环境地址
 
  @return 地址
  */
@@ -173,7 +176,7 @@ NS_ASSUME_NONNULL_BEGIN
  当前是否处于免密状态
 
  @return BOOL YES，免密/NO，非免密
- @note OAuth登录必须输入密码，无法免密
+ 
  */
 + (BOOL)bjcaExistsFreePin;
 
