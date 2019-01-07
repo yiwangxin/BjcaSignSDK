@@ -129,9 +129,16 @@ NS_ASSUME_NONNULL_BEGIN
  获取当前环境地址
 
  @return 地址
+ @note  本接口仅用于demo，需要获取当前环境，请使用下面的获取枚举接口
  */
 + (NSString*)bjcaAddress;
 
+/**
+ 获取当前环境枚举
+
+ @return 环境枚举
+ */
++ (BjcaServerType)bjcaServerType;
 
 /**
  是否存在证书
@@ -142,11 +149,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 /**
- 是否存在签章
+ 获取签章Base64
 
- @return BOOL型，YES存在，NO不存在
+ @return 存在/base64，不存在/nil
  */
-+ (BOOL)bjcaExistsStamp;
++ (NSString *)bjcaStampPic;
 
 
 /**
