@@ -15,10 +15,18 @@ typedef NS_ENUM(NSInteger,BjcaServerType) {
     BjcaPublic,
     //    集成环境
     BjcaIntegrate,
-    //    开发环境
-    BjcaDev,
     //    测试环境
     BjcaTest,
+    //    开发环境
+    BjcaDev,
+};
+
+//证书类型，分医师类型和公众类型(APP)
+typedef NS_ENUM(NSInteger,BjcaCertType) {
+//    医生类型
+    CertDoctor,
+//    患者类型
+    CertMass,
 };
 
 //用户希望执行的业务
@@ -41,5 +49,9 @@ typedef NS_ENUM(NSInteger,BjcaBusinessType) {
     BjcaBusinessUserInfo,
 //    查看证书详情
     BjcaBusinessCertDetail,
+//    开启指纹
+    BjcaBusinessFingerPin,
+//    关闭指纹
+    BjcaBusinessFingerPinClose,
 };
 #endif /* BjcaPublicConst_h */

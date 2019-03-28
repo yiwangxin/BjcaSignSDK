@@ -86,6 +86,15 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)bjcaBatchSignList:(NSMutableArray *)uniqueIds userClientId:(NSString *)clientId curViewCtrl:(UIViewController*)viewCtrl;
 
+/**
+ 开启指纹签名
+ */
+- (void)bjcaFingerSign:(UIViewController*)viewCtrl;
+
+/**
+ 关闭指纹签名
+ */
+- (void)bjcaFingerSignClose:(UIViewController*)viewCtrl;
 
 /**
  二维码扫码字符串签名
@@ -166,6 +175,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 /**
+ 获取当前指纹签名开关状态
+ YES    开启
+ NO     关闭
+
+ @return bool
+ */
++ (BOOL)bjcaFingerState;
+
+/**
  获取当前版本号
 
  @return version
@@ -192,6 +210,7 @@ NS_ASSUME_NONNULL_BEGIN
  清除免密状态
  */
 + (void)bjcaRemovePin;
+
 @end
 
 NS_ASSUME_NONNULL_END
