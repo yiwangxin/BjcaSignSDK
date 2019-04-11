@@ -15,10 +15,11 @@ typedef NS_ENUM(NSInteger,BjcaServerType) {
     BjcaPublic,
     //    集成环境
     BjcaIntegrate,
-    //    测试环境
-    BjcaTest,
     //    开发环境
     BjcaDev,
+    //    测试环境
+    BjcaTest,
+   
 };
 
 //证书类型，分医师类型和公众类型(APP)
