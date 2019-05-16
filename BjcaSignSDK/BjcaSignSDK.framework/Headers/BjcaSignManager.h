@@ -121,8 +121,6 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)bjcaUserInfo:(NSString *)clientId;
 
-
-
 /**
   打开证书详情页
 
@@ -210,6 +208,14 @@ NS_ASSUME_NONNULL_BEGIN
  清除免密状态
  */
 + (void)bjcaRemovePin;
+
+
+/**
+ 认证对签名流水号签名(厂商不可用)
+ */
+
+- (void)oauthSignJobId:(NSString *)jobId curViewCtrl:(UIViewController *)viewctrl;
+
 
 @end
 
