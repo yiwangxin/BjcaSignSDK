@@ -217,6 +217,15 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)oauthSignJobId:(NSString *)jobId curViewCtrl:(UIViewController *)viewctrl;
 
 
+/**
+ 根据签名流水号签名
+
+ @param signId 
+ @param viewCtrl 当前页的ViewCtrl(厂商不可用)
+ */
+- (void)bjcaBatchSignId:(NSString*)signId curViewCtrl:(UIViewController*)viewCtrl;
+
+
 @end
 
 NS_ASSUME_NONNULL_END
