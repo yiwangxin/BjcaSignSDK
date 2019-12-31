@@ -10,7 +10,7 @@ s.version      = '3.3.0'
 s.license      = { :type => 'MIT' }
 
 #项目主页地址
-s.homepage     = 'https://github.com/XingXiaoWu/BjcaSignSDK'
+s.homepage     = 'https://github.com/yiwangxin/BjcaSignSDK'
 
 #作者
 s.authors      = { '无星' => 'wuxing@bjca.org.cn' }
@@ -19,7 +19,7 @@ s.authors      = { '无星' => 'wuxing@bjca.org.cn' }
 s.summary      = "北京数字医信签名SDK"
 
 #项目的地址 （注意这里的tag位置，可以自己写也可以直接用s.version，但是与s.version一定要统一）
-s.source       = { :git => 'https://github.com/XingXiaoWu/BjcaSignSDK.git', :tag => s.version }
+s.source       = { :git => 'https://github.com/yiwangxin/BjcaSignSDK.git', :tag => s.version }
 
 #支持最小系统版本
 s.platform     = :ios, '8.0'
