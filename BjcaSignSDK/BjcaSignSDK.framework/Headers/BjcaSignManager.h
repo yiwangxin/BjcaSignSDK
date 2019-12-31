@@ -220,11 +220,17 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  根据签名流水号签名
 
- @param signId 
+ @param signId  签名
  @param viewCtrl 当前页的ViewCtrl(厂商不可用)
  */
 - (void)bjcaBatchSignId:(NSString*)signId curViewCtrl:(UIViewController*)viewCtrl;
 
+
+/**
+根据签名流水号签名(厂商不可用)
+
+*/
+-(void)signWithFirmId:(NSString *)firmId uniqueIds:(NSMutableArray *)uniqueIds userClientId:(NSString *)clientId curViewCtrl:(UIViewController*)viewCtrl;
 
 @end
 

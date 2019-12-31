@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 s.name         = 'BjcaSignSDK'
 
 #版本号
-s.version      = '3.2.2'
+s.version      = '3.3.0'
 
 #许可证
 s.license      = { :type => 'MIT' }
