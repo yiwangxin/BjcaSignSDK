@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/BjcaPublicConst.h</key>
 		<data>
-		wx7EJWAzVs7sUFMlf+QVeqZxDSk=
+		fkS94n42x1ET7IHjWy/NeTX2RTg=
 		</data>
 		<key>Headers/BjcaSignManager.h</key>
 		<data>
-		kpJX8pxaRUl+thrdCc9bvWzhBj4=
+		LDcafxGyJo+FPVm1KYVbdQlvFbE=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -23,22 +23,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wx7EJWAzVs7sUFMlf+QVeqZxDSk=
+			fkS94n42x1ET7IHjWy/NeTX2RTg=
 			</data>
 			<key>hash2</key>
 			<data>
-			KSXoMejBKnyVrvtd403KlDKjifuFwgpgS00+7md5Wio=
+			6pkbNpbg84KHtPTmO2ms0eSLgDcsam1rusFXVhq+U/8=
 			</data>
 		</dict>
 		<key>Headers/BjcaSignManager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kpJX8pxaRUl+thrdCc9bvWzhBj4=
+			LDcafxGyJo+FPVm1KYVbdQlvFbE=
 			</data>
 			<key>hash2</key>
 			<data>
-			9U8iAHkP/k2VG9v6KV9sNEJjVrWV0EC7kHQIiy73tRo=
+			BmG9pv6Xtm3BJmoVSae28TMfHnPf/lICTsnqM41+doQ=
 			</data>
 		</dict>
 	</dict>

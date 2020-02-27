@@ -105,6 +105,32 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)bjcaQrSign:(NSString *)qrString userClientId:(NSString *)clientId curViewCtrl:(UIViewController*)viewCtrl;
 
+/**
+ 请求开启自动签名
+ @param clientId  厂商的clientId
+ @param sysTag      服务端同步待签数据携带 sysTag，该条订单会 在服务端通过个人托管证书完成签名
+ @param viewCtrl 当前页的ViewCtrl
+ */
+
+- (void)signForSignAuto:(NSString *)clientId sysTag:(NSString*)sysTag curViewCtrl:(UIViewController*)viewCtrl;
+
+
+
+/**
+ 获取自动签名状态
+ @param clientId  厂商的clientId
+ */
+
+- (void)signAutoInfo:(NSString *)clientId;
+
+
+/**
+ 停止自动签名
+ @param clientId  厂商的clientId
+ @param sysTag      服务端同步待签数据携带 sysTag，该条订单会 在服务端通过个人托管证书完成签名 
+ */
+
+- (void)stopSignAuto:(NSString *)clientId  sysTag:(NSString*)sysTag;
 
 /**
  开启免密签名
