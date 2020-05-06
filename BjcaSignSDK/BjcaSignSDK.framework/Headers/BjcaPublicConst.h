@@ -53,13 +53,7 @@ typedef NS_ENUM(NSInteger,BjcaBusinessType) {
     BjcaBusinessFingerPin,
 //    关闭指纹
     BjcaBusinessFingerPinClose,
-//   业务自动签名（内部）
+    //    自动签名
     BjcaBusinessAutomationSign,
-//    开启自动签名
-    BjcaSignForSignAuto,
-//   获取自动签名状态
-    BjcaSignAutoInfo,
-//   停止自动签名状态
-    BjcaStopSignAuto,
 };
 #endif /* BjcaPublicConst_h */

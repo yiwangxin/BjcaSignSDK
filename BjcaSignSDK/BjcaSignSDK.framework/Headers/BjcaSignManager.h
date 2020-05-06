@@ -105,32 +105,6 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)bjcaQrSign:(NSString *)qrString userClientId:(NSString *)clientId curViewCtrl:(UIViewController*)viewCtrl;
 
-/**
- 请求开启自动签名
- @param clientId  厂商的clientId
- @param sysTag      服务端同步待签数据携带 sysTag，该条订单会 在服务端通过个人托管证书完成签名
- @param viewCtrl 当前页的ViewCtrl
- */
-
-- (void)signForSignAuto:(NSString *)clientId sysTag:(NSString*)sysTag curViewCtrl:(UIViewController*)viewCtrl;
-
-
-
-/**
- 获取自动签名状态
- @param clientId  厂商的clientId
- */
-
-- (void)signAutoInfo:(NSString *)clientId;
-
-
-/**
- 停止自动签名
- @param clientId  厂商的clientId
- @param sysTag      服务端同步待签数据携带 sysTag，该条订单会 在服务端通过个人托管证书完成签名 
- */
-
-- (void)stopSignAuto:(NSString *)clientId  sysTag:(NSString*)sysTag;
 
 /**
  开启免密签名
@@ -138,36 +112,6 @@ NS_ASSUME_NONNULL_BEGIN
  @param time 免密时间
  */
 - (void)bjcaFreePinSign:(int)time clientId:(NSString *)clientId curViewCtrl:(UIViewController*)viewCtrl;
-
-
-/**
- 请求开启自动签名
- @param clientId  厂商的clientId
- @param sysTag      服务端同步待签数据携带 sysTag，该条订单会 在服务端通过个人托管证书完成签名
- @param viewctrl 当前页的ViewCtrl
- */
-
-- (void)signForSignAuto:(NSString *)clientId  sysTag:(NSString*)sysTag curViewCtrl:(UIViewController *)viewctrl;
-
-
-
-/**
- 获取自动签名状态
- @param clientId  厂商的clientId
- @param viewctrl 当前页的ViewCtrl
- */
-
-- (void)signAutoInfo:(NSString *)clientId  curViewCtrl:(UIViewController *)viewctrl;
-
-
-/**
- 停止自动签名
- @param clientId  厂商的clientId
- @param sysTag      服务端同步待签数据携带 sysTag，该条订单会 在服务端通过个人托管证书完成签名
- @param viewctrl 当前页的ViewCtrl
- */
-
-- (void)stopSignAuto:(NSString *)clientId  sysTag:(NSString*)sysTag curViewCtrl:(UIViewController *)viewctrl;
 
 #pragma mark 用户信息相关
 /**
@@ -276,17 +220,11 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  根据签名流水号签名
 
- @param signId  签名
- @param viewCtrl 当前页的ViewCtrl(厂商不可用)
+ @param signId
+ @param viewCtrl 当前页的ViewCtrl
  */
 - (void)bjcaBatchSignId:(NSString*)signId curViewCtrl:(UIViewController*)viewCtrl;
 
-
-/**
-根据签名流水号签名(厂商不可用)
-
-*/
--(void)signWithFirmId:(NSString *)firmId uniqueIds:(NSMutableArray *)uniqueIds userClientId:(NSString *)clientId curViewCtrl:(UIViewController*)viewCtrl;
 
 @end
 
