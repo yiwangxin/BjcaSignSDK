@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 s.name         = 'BjcaSignSDK'
 
 #版本号
-s.version      = '3.4.2'
+s.version      = '3.4.3'
 
 #许可证
 s.license      = { :type => 'MIT' }
@@ -28,7 +28,7 @@ s.platform     = :ios, '8.0'
 s.source_files = 'BjcaSignSDK/BjcaSignSDK.framework/Headers/*.{h}'
 
 #需要打Bundle的bundle路径
-s.resources = "BjcaSignSDK/Signet-SDK-Bundle.bundle"
+s.resources = "BjcaSignSDK/*.{bundle}"
 
 #你的SDK路径
 s.vendored_frameworks = 'BjcaSignSDK/BjcaSignSDK.framework'
