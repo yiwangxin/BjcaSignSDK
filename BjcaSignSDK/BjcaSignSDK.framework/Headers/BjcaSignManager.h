@@ -258,6 +258,17 @@ NS_ASSUME_NONNULL_BEGIN
 */
 -(void)signWithFirmId:(NSString *)firmId uniqueIds:(NSMutableArray *)uniqueIds userClientId:(NSString *)clientId curViewCtrl:(UIViewController*)viewCtrl;
 
+#pragma mark 请求开启自动签名(APP专用)
+-(void)signForSignAutoWithFirmId:(NSString *)firmId
+                        clientId:(NSString *)clientId
+                          sysTag:(NSString*)sysTag
+                     curViewCtrl:(UIViewController*)viewCtrl;
+
+#pragma mark 停止自动签名(APP转用)
+- (void)stopSignAutoWithFirmId:(NSString *)firmId
+                      clientId:(NSString *)clientId
+                        sysTag:(NSString*)sysTag;
+
 @end
 
 NS_ASSUME_NONNULL_END
