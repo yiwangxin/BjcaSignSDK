@@ -61,5 +61,7 @@ typedef NS_ENUM(NSInteger,BjcaBusinessType) {
     BjcaSignAutoInfo,
 //   停止自动签名状态
     BjcaStopSignAuto,
+    // 开启授权签名
+    BjcaOpenGrantSign,
 };
 #endif /* BjcaPublicConst_h */

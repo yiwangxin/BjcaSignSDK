@@ -235,6 +235,17 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (void)bjcaRemovePin;
 
+ 
+/**
+设置app显示的语言
+@param appLanguage app显示的语言（目前仅支持中文zh-Hans和英文en除中文外其他显示en,传空字符串则根据系统语言）
+*/
++ (void)bjcaSetAppLanguage:(NSString *)appLanguage;
+
+/**
+ app显示的语言（目前仅支持中文zh-Hans和英文en除中文外其他显示en,传空字符串则根据系统语言）
+*/
++ (NSString *)bjcaAppLanguage;
 
 /**
  认证对签名流水号签名(厂商不可用)
@@ -268,6 +279,18 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)stopSignAutoWithFirmId:(NSString *)firmId
                       clientId:(NSString *)clientId
                         sysTag:(NSString*)sysTag;
+
+/// 开启授权签名
+/// @param clientId 厂商id
+/// @param firmId 厂商id
+/// @param grantedUserId 被授权医生用户id
+/// @param timeOut 授权时间单位小时
+- (void)startGrantSign:(NSString *)clientId
+                firmId:(NSString*)firmId
+         grantedUserId:(NSString *)grantedUserId
+               timeOut:(int)timeOut
+ currentViewController:(UIViewController*)currentViewController;
+
 
 @end
 
