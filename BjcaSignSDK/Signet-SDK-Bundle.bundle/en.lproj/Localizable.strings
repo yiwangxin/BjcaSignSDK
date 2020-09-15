@@ -24,7 +24,7 @@
 "YWXDownCertPinCodeAgainPlaceholder" = "Enter password again";
 "YWXDownCertConfirmButtonTitle" = "Submit";
 
-"YWXPinCodeInputTitle" = "Please enter your signature password";
+"YWXPinCodeInputTitle" = "Enter signature password";
 "YWXPinCodeInputCancleTitle" = "Cancel";
 "YWXPinCodeInputForgetPin" = "Forget password";
 
