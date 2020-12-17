@@ -72,8 +72,25 @@ NS_ASSUME_NONNULL_BEGIN
  @param navColor 导航栏颜色，可为nil
  @param fontColor 导航栏颜色，可为nil
  */
--(void)bjcaSetStamp:(NSString*)clientId curViewCtrl:(UIViewController*)viewCtrl navColor:(UIColor * _Nullable)navColor navFontColor:(UIColor * _Nullable)fontColor;
+-(void)bjcaSetStamp:(NSString*)clientId
+        curViewCtrl:(UIViewController*)viewCtrl
+           navColor:(UIColor * _Nullable)navColor
+       navFontColor:(UIColor * _Nullable)fontColor;
 
+/**
+ 签章配置
+
+ @param clientId 厂商的clientId
+ @param firmIdList 厂商的clientId
+ @param viewCtrl 当前页的ViewCtrl
+ @param navColor 导航栏颜色，可为nil
+ @param fontColor 导航栏颜色，可为nil
+ */
+-(void)bjcaSetStamp:(NSString *)clientId
+         firmIdList:(NSArray *)firmIdList
+        curViewCtrl:(UIViewController*)viewCtrl
+           navColor:(UIColor * _Nullable)navColor
+       navFontColor:(UIColor * _Nullable)fontColor;
 #pragma mark - 签名相关
 
 
@@ -238,12 +255,12 @@ NS_ASSUME_NONNULL_BEGIN
  
 /**
 设置app显示的语言
-@param appLanguage app显示的语言（目前仅支持中文zh-Hans和英文en除中文外其他显示en,传空字符串则根据系统语言）
+@param appLanguage app显示的语言（目前仅支持中文zh和英文en除中文外其他显示en,传空字符串则根据系统语言）
 */
 + (void)bjcaSetAppLanguage:(NSString *)appLanguage;
 
 /**
- app显示的语言（目前仅支持中文zh-Hans和英文en除中文外其他显示en,传空字符串则根据系统语言）
+ app显示的语言（目前仅支持中文zh和英文en除中文外其他显示en,传空字符串则根据系统语言）
 */
 + (NSString *)bjcaAppLanguage;
 
