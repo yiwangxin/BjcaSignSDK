@@ -1,0 +1,66 @@
+/* 
+  Localizable.strings
+  YWXSignSDKDemo
+
+  Created by szyx on 2021/4/20.
+  Copyright © 2021 Beijing Digital Yixin Technology Co., Ltd. All rights reserved.
+*/
+
+// 错误信息
+"YWXSignStatusMessageCertificateDoesNotExist" = "cert Not Exist";                     // 1001
+"YWXSignStatusMessageParameterNull" = "参数为空，请检查参数";                       // 1003
+"YWXSignStatusMessageCertificateIsNotExpired" = "证书未过期，无需更新";             // 1007
+"YWXSignStatusMessageSignDataCountError" = "data 1-100";    // 1006
+"YWXSignErrorMessageFreePinDayIllegal" = "免密时间应为1-60天，请检查后重试";          // 1008
+"YWXSignErrorMessageBiometricNotEnabled" = "手机未开启生物识别功能，请检查设置后重试";  // 1010
+"YWXSignStatusMessageInvalidPhoneNumberFormat" = "⼿机号格式不正确，请检查后重试";    // 1009
+"YWXSignStatusMessageResetPasswordSuccess" = "重置密码成功";                       // 1013
+"YWXSignStatusMessageCantSignOtherUserData" = "您不能操作其他用户的数据";            // 1015
+"YWXSignStatusMessageNetworkError" = "⽹络异常";                                  // 2001
+"YWXSignStatusMessageQRCodeError" = "当前二维码业务医网信无法处理";                   // 2002
+"YWXSignStatusMessageCancel" = "User Cancel";                                     // 3000
+"YWXSignStatusMessageBiometricLockoutError" = "连续验证识别错误，识别功能被锁定";      // 0x14100402
+"YWXSignStatusMessageTouchIDVerifyError" = "用户Touch ID验证失败";                 // 0x14100403
+"YWXSignStatusMessageFaceIDVerifyError" = "用户Face ID验证失败";                   // 0x14100404
+
+"YWXSignStatusMessageTouchIDTitle" = "Touch ID验证";
+"YWXSignStatusMessageFaceIDTitle" = "Face ID验证";
+"YWXSignStatusMessageBiometricTitle" = "生物识别验证";
+
+// UI信息
+"YWXCommonCloseTitle" = "Close";
+"YWXDownCertDownLoadTitle" = "Download Certificate";
+"YWXDownCertUpdateTitle" = "Certificate Renewal";
+"YWXDownCertResetTitle" = "Signature Password Reset";
+"YWXDownCertAlertTip" = "Tip";
+"YWXDownCertInconsistentPasswords" = "Inconsistent passwords!";
+"YWXDownCertDownLoadSuccessText" = "Success";
+"YWXDownCertVerificationCodeTitle" = "Validation Code";
+"YWXDownCertVerificationCodePlaceholder" = "Enter Validation Code";
+"YWXDownCertPinCodeTitle" = "Signature password";
+"YWXDownCertPinCodePlaceholder" = "Enter Signature password";
+"YWXDownCertPinCodeAgainTitle" = "Confirm password";
+"YWXDownCertPinCodeAgainPlaceholder" = "Enter password again";
+"YWXDownCertConfirmButtonTitle" = "Submit";
+"YWXDownCertSendMessageToPhone" = "A verification code has been sent to your phone";
+"YWXDownCertGetVerificationVode" = "Get verification code";
+"YWXDownCertGetVerificationVodeAgain" = "Reacquire";
+"YWXPinCodeInputTitle" = "Enter signature password";
+"YWXPinCodeInputCancleTitle" = "Cancel";
+"YWXPinCodeInputForgetPin" = "Forget password";
+"YWXCertDetailControllerTitle" = "Ceritficate Detail";
+"YWXCertDetailName" = "Name";
+"YWXCertDetailGender" = "Gender";
+"YWXCertDetailHospital" = "Hospital";
+"YWXCertDetailCertType" = "Ceritficate type";
+"YWXCertDetailDescription" = "Identity of this personnel has been reviewed and qualified by Beijing Shuziyixin Technology Co., Ltd";
+"YWXCertDetailIssueAgency" = "Issue agency";
+"YWXCertDetailIssueDate" = "Issue date";
+"YWXCertDetailExpirationDate" = "Expiration date";
+"YWXCertDetailCertDescription" = "Certificate Description";
+"YWXCertDetailCertCantDescription" = "This authorization certificate is the only valid text and cannot be photocopied, altered, or transferred.";
+"YWXCertDetailCertLawDescription" = "Beijing Shuziyixin Technology Co., Lt.has the final interpretation right of this authorization certificate";
+"YWXCertDetailDigitalCertificate" = "Digital certificate";
+"YWXStampDrawBackgroundNoteText" = "Signature Collection";
+"YWXStampDrawSaveText" = "Save";
+"YWXStampDrawCleanText" = "Clean";

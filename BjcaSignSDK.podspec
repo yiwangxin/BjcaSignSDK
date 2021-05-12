@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 s.name         = 'BjcaSignSDK'
 
 #版本号
-s.version      = '3.6.3'
+s.version      = '3.7.0'
 
 #许可证
 s.license      = { :type => 'MIT' }
@@ -33,13 +33,7 @@ s.resources = "BjcaSignSDK/*.{bundle}"
 #你的SDK路径
 s.vendored_frameworks = 'BjcaSignSDK/BjcaSignSDK.framework'
 
-#SDK头文件路径
-#s.public_header_files = 'BjcaSignSDK/BjcaSignSDK.framework/Headers/*.{h}'
-
-#依赖库
-#s.libraries    = 'sqlite3','icucore','z'
-
-#依赖库
-#s.frameworks   = 'UIKit','Foundation'
+#依赖新库YWXSignSDK/YWXBjcaSignSDK
+s.dependency 'YWXSignSDK/YWXBjcaSignSDK', '~> 3.7.0'
 
 end

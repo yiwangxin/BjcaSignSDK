@@ -1,0 +1,6 @@
+framework module YWXBjcaSignSDK {
+  umbrella header "YWXBjcaSignSDK.h"
+
+  export *
+  module * { export * }
+}
