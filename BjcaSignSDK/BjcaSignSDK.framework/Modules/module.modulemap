@@ -1,0 +1,6 @@
+framework module BjcaSignSDK {
+  umbrella header "BjcaSignSDK.h"
+
+  export *
+  module * { export * }
+}

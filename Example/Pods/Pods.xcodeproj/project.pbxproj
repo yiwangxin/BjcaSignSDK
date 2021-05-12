@@ -63,7 +63,7 @@
 /* Begin PBXFileReference section */
 		00BE0051DBE7CC83AEEA717C07AE0C53 /* BjcaPublicConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BjcaPublicConst.h; path = BjcaSignSDK/BjcaSignSDK.framework/Headers/BjcaPublicConst.h; sourceTree = "<group>"; };
 		0B8F1732A8853F908783F6855526A169 /* YWXSignSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YWXSignSDK.framework; path = YWXSignSDK/Core/YWXSignSDK.framework; sourceTree = "<group>"; };
-		11CDBAC76A36A68EB2AFA0B6B83BCEB4 /* Pods_BjcaSignSDKExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BjcaSignSDKExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11CDBAC76A36A68EB2AFA0B6B83BCEB4 /* Pods_BjcaSignSDKExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BjcaSignSDKExample.framework; path = "Pods-BjcaSignSDKExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		208CE944DA3D29F27284860C2751B3D4 /* BjcaSignSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BjcaSignSDK.release.xcconfig; sourceTree = "<group>"; };
 		210D261A94E08D5850A886D857BDDD7E /* BjcaSignManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BjcaSignManager.h; path = BjcaSignSDK/BjcaSignSDK.framework/Headers/BjcaSignManager.h; sourceTree = "<group>"; };
 		2B9260BBDF6C315BBFB05DF2F8B3231C /* Pods-BjcaSignSDKExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BjcaSignSDKExample.modulemap"; sourceTree = "<group>"; };
@@ -81,13 +81,13 @@
 		7C0B918B9FE73A61B5B3E6C8A8AD705F /* keyBoard.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = keyBoard.bundle; path = YWXSignSDK/Support/Optional/YWXBjcaSignSDK/keyBoard.bundle; sourceTree = "<group>"; };
 		87C27EF659FF3048F3BCD19E98E1B125 /* Pods-BjcaSignSDKExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BjcaSignSDKExample-resources.sh"; sourceTree = "<group>"; };
 		9A017DFD86110A27A21807D939DC5DC6 /* Pods-BjcaSignSDKExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BjcaSignSDKExample-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A3A61EEE13F296B6D54F2D29DC6F18E2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		B03DAEF9FD264D2C50FAEB4884B50F62 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3A61EEE13F296B6D54F2D29DC6F18E2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B03DAEF9FD264D2C50FAEB4884B50F62 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B8F9ACF826D4E20DF0270CA647352568 /* Pods-BjcaSignSDKExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BjcaSignSDKExample-dummy.m"; sourceTree = "<group>"; };
 		C4A68E9A8E867E6F646E17C1DAA54C02 /* Signet-SDK-Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = "Signet-SDK-Bundle.bundle"; path = "YWXSignSDK/Support/Optional/YWXBjcaSignSDK/Signet-SDK-Bundle.bundle"; sourceTree = "<group>"; };
 		CDB2420E0201CC8F43C5C8A5002FEAE6 /* YWXSignSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = YWXSignSDK.bundle; path = YWXSignSDK/Core/YWXSignSDK.bundle; sourceTree = "<group>"; };
-		FB5FC2C55C59B47AFF4D90C4A2A5DCF9 /* BjcaSignSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BjcaSignSDK.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		FB5FC2C55C59B47AFF4D90C4A2A5DCF9 /* BjcaSignSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BjcaSignSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FCCD1BAC2150D49D69CF80B1B8D71EAE /* YWXSignFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YWXSignFoundation.framework; path = YWXSignSDK/Support/Required/YWXSignFoundation.framework; sourceTree = "<group>"; };
 		FFFA7586F245F0E34511A78C4E34BEE9 /* Pods-BjcaSignSDKExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BjcaSignSDKExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -249,6 +249,7 @@
 				C38DE6E0A70813CF381D3D0AD6F1F433 /* YWXBjcaSignSDK */,
 				495E0961E89EAC5AD72BD72182DB24BB /* YWXSignFoundation */,
 			);
+			name = YWXSignSDK;
 			path = YWXSignSDK;
 			sourceTree = "<group>";
 		};

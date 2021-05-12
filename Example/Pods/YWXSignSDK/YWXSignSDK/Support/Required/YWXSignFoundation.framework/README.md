@@ -1,0 +1,2 @@
+# 说明
+YWXSignFoundation库是医网信签名SDK中的基础库，用来提供一些基础的能力

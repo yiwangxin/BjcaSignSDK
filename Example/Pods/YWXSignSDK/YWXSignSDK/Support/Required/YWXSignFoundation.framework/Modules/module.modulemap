@@ -1,0 +1,6 @@
+framework module YWXSignFoundation {
+  umbrella header "YWXSignFoundation.h"
+
+  export *
+  module * { export * }
+}
