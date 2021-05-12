@@ -22,13 +22,13 @@ s.summary      = "北京数字医信签名SDK"
 s.source       = { :git => 'https://github.com/yiwangxin/BjcaSignSDK.git', :tag => s.version }
 
 #支持最小系统版本
-s.platform     = :ios, '8.0'
+s.platform = :ios, '10.0'
 
 #需要包含的源文件,没有要开源出来的
-s.source_files = 'BjcaSignSDK/BjcaSignSDK.framework/Headers/*.{h}'
+#s.source_files = 'BjcaSignSDK/BjcaSignSDK.framework/Headers/*.{h}'
 
 #需要打Bundle的bundle路径
-s.resources = "BjcaSignSDK/*.{bundle}"
+#s.resources = "BjcaSignSDK/*.{bundle}"
 
 #你的SDK路径
 s.vendored_frameworks = 'BjcaSignSDK/BjcaSignSDK.framework'

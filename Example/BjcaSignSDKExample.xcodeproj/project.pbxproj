@@ -263,7 +263,7 @@
 		DA7DCFF4264BC6C0004123AB /* YWXBjcaSignSDKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWXBjcaSignSDKViewController.m; sourceTree = "<group>"; };
 		DA7DCFF5264BC6C0004123AB /* YWXBjcaSignSDKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWXBjcaSignSDKViewController.h; sourceTree = "<group>"; };
 		DA7DD05A264BC973004123AB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		DA7DD05B264BC973004123AB /* BjcaSignSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = BjcaSignSDK.podspec; path = ../BjcaSignSDK.podspec; sourceTree = "<group>"; };
+		DA7DD05B264BC973004123AB /* BjcaSignSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = BjcaSignSDK.podspec; path = ../BjcaSignSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DA7DD05C264BC973004123AB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

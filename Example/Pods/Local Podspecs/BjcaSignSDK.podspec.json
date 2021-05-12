@@ -14,10 +14,8 @@
     "tag": "3.7.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "BjcaSignSDK/BjcaSignSDK.framework/Headers/*.{h}",
-  "resources": "BjcaSignSDK/*.{bundle}",
   "vendored_frameworks": "BjcaSignSDK/BjcaSignSDK.framework",
   "dependencies": {
     "YWXSignSDK/YWXBjcaSignSDK": [
