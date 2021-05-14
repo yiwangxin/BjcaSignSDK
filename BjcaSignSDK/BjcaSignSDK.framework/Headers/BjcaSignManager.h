@@ -29,11 +29,17 @@ NS_ASSUME_NONNULL_BEGIN
  */
 +(BjcaSignManager *)bjcaShareBjcaSignManager;
 
-/// SDK 初始化工作（3.7.0新增方法）
-/// @param clientID 厂商id
+/// SDK 初始化工作（3.7.0新增方法）删除了+(void)bjcaSetServerURL:(BjcaServerType)serverType;
+/// @param clientId 厂商id
 /// @param environment 环境枚举
-- (void)startWithClientID:(NSString *)clientID
+- (void)startWithClientId:(NSString *)clientId
               environment:(BjcaServerType)environment;
+
+/// 设置UI页面的导航栏字体颜色和背景颜色（3.7.0新增方法）
+/// @param navigationBarTintColor 字体颜色
+/// @param navigationBarBackgroundColor 背景颜色
+- (void)setupUIForNavigationBarTintColor:(UIColor *)navigationBarTintColor
+            navigationBarBackgroundColor:(UIColor *)navigationBarBackgroundColor;
 
 #pragma mark - 证书相关
 
