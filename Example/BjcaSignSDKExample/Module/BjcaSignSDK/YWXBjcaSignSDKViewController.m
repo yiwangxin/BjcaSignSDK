@@ -408,7 +408,7 @@ static NSString *KEnvironmentKeyName = @"serverType";
             environment = BjcaDev;
             break;
     }
-    [BjcaSignManager.bjcaShareBjcaSignManager startWithClientID:self.clientInfoView.clientId
+    [BjcaSignManager.bjcaShareBjcaSignManager startWithClientId:self.clientInfoView.clientId
                                                     environment:environment];
     YWXDemoNetManager.sharedManager.environment = currentEnvironment;
     [self updateInfo];
