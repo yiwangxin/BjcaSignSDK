@@ -63,6 +63,32 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)bjcaCertReset:(NSString*)clientId
          curViewCtrl:(UIViewController*)viewCtrl;
 
+/// 证书下载
+/// @param clientId 厂商的clientId
+/// @param phoneNum 下载证书的手机号
+/// @param firmId   子厂商id
+/// @param viewCtrl 当前页的ViewCtrl
+-(void)bjcaCertDown:(NSString*)clientId
+           phoneNum:(NSString*)phoneNum
+             firmId:(nullable NSString *)firmId
+        curViewCtrl:(UIViewController*)viewCtrl;
+
+/// 证书更新
+/// @param clientId 厂商的clientId
+/// @param firmId   子厂商id
+/// @param viewCtrl 当前页的ViewCtrl
+-(void)bjcaCertUpdate:(NSString*)clientId
+               firmId:(nullable NSString *)firmId
+          curViewCtrl:(UIViewController*)viewCtrl;
+
+/// 证书密码重置
+/// @param clientId 厂商的clientId
+/// @param firmId   子厂商id
+/// @param viewCtrl 当前页的ViewCtrl
+-(void)bjcaCertReset:(NSString*)clientId
+              firmId:(nullable NSString *)firmId
+         curViewCtrl:(UIViewController*)viewCtrl;
+
 /// 是否存在证书 YES存在，NO不存在
 + (BOOL)bjcaExistsCert;
 
@@ -239,6 +265,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param appLanguage app显示的语言（目前仅支持中文zh和英文en除中文外其他显示en,传空字符串则根据系统语言）
 + (void)bjcaSetAppLanguage:(NSString *)appLanguage;
 
+/// 展示键盘输入页面
+- (void)showPinWindow;
 
 @end
 

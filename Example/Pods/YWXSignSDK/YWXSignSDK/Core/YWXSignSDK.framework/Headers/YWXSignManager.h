@@ -52,6 +52,26 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param completion 回调
 - (void)certResetPinWithCompletion:(nullable YWXCompletion)completion;
 
+/// 下载证书
+/// @param phone 手机号
+/// @param firmId 子厂商id
+/// @param completion 回调
+- (void)certDownWithPhone:(NSString *)phone
+                   firmId:(nullable NSString *)firmId
+               completion:(nullable YWXCompletion)completion;
+
+/// 更新证书
+/// @param firmId 子厂商id
+/// @param completion 回调
+- (void)certUpdateWithFirmId:(nullable NSString *)firmId
+                  completion:(nullable YWXCompletion)completion;
+
+/// 重置证书
+/// @param firmId 子厂商id
+/// @param completion 回调
+- (void)certResetPinWithFirmId:(nullable NSString *)firmId
+                    completion:(nullable YWXCompletion)completion;
+
 /// 打开证书详情
 /// @param completion 回调
 - (void)showCertDetailWithCompletion:(nullable YWXCompletion)completion;
@@ -209,6 +229,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// 修改界面语言(医网信APP专用)
 /// @param language 语言字符串 zh-Hans中文en英文
 - (void)changePreferredLanguage:(NSString *)language;
+
+/// 展示键盘输入页面
+/// @param completion 键盘完成回调
+- (void)showPinWindowWithCompletion:(nullable YWXCompletion)completion;
 
 @end
 

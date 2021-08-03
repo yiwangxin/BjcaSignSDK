@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/YWXBjcaSignManager.h</key>
 		<data>
-		RhGo8UQzBjsviZ354VOT7I7vcFY=
+		5FdLH6v3y+ad7QXlZgxfOWxl3Qg=
 		</data>
 		<key>Headers/YWXBjcaSignSDK.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		lz5bLfsdjXRiArgK+2p1cKdvcJI=
+		lrNPUrucrseNjF3SALoMCy+EL38=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -27,11 +27,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RhGo8UQzBjsviZ354VOT7I7vcFY=
+			5FdLH6v3y+ad7QXlZgxfOWxl3Qg=
 			</data>
 			<key>hash2</key>
 			<data>
-			QEv+dhjwRuccrD3KxKEBHokH1yE6e0SfmdliGDHV5EI=
+			o/0HEbDQmvVXTzCJIoS2Q74fF8hWTjtYMJ0V9llxUbA=
 			</data>
 		</dict>
 		<key>Headers/YWXBjcaSignSDK.h</key>

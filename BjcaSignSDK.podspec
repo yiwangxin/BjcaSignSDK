@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 s.name         = 'BjcaSignSDK'
 
 #版本号
-s.version      = '3.7.0'
+s.version      = '3.7.1'
 
 #许可证
 s.license      = { :type => 'MIT' }
@@ -34,6 +34,6 @@ s.platform = :ios, '10.0'
 s.vendored_frameworks = 'BjcaSignSDK/BjcaSignSDK.framework'
 
 #依赖新库YWXSignSDK/YWXBjcaSignSDK
-s.dependency 'YWXSignSDK/YWXBjcaSignSDK', '~> 3.7.0'
+s.dependency 'YWXSignSDK/YWXBjcaSignSDK', '~> 3.7.1'
 
 end

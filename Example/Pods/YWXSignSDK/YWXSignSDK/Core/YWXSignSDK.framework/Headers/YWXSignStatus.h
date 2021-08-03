@@ -13,13 +13,13 @@ NS_ASSUME_NONNULL_BEGIN
 /// SDK 开发环境。
 typedef NS_ENUM(NSUInteger, YWXEnvironment) {
     /// 生产环境
-    YWXEnvironmentProduction,
+    YWXEnvironmentPublic,
     /// 集成环境
-    YWXEnvironmentAcceptance,
+    YWXEnvironmentTest,
     /// 测试环境
-    YWXEnvironmentTesting,
+    YWXEnvironmentBeta,
     /// 开发环境
-    YWXEnvironmentDevelopment,
+    YWXEnvironmentDev,
 };
 
 /// 状态码。
