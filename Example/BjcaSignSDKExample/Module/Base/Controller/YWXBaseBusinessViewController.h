@@ -11,6 +11,7 @@
 #import "YWXSignBusinessGroupModel.h"
 #import "YWXBaseViewController.h"
 #import "YWXDemoNetManager.h"
+#import "YWXEnvironmentViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -34,6 +35,16 @@ NS_ASSUME_NONNULL_BEGIN
                        serviceType:(NSInteger)serviceType
                        isExistCert:(BOOL)isExistCert
                        sdkLanguage:(NSString *)sdkLanguage;
+
+- (void)changeEnvironmentWith:(YWXDemoEnvironment)currentEnvironment;
+
+- (void)cleanCert;
+
+- (void)didClickChangeButton;
+
+- (void)savePhoneNumber;
+
+- (void)cleanPhoneNumber;
 
 @end
 

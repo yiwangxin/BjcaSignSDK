@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <YWXBjcaSignSDK/YWXBjcaSignManager.h>
+#import <YWXSignSDK/YWXSignManager.h>
 #import <BjcaSignSDK/BjcaPublicConst.h>
 NS_ASSUME_NONNULL_BEGIN
 

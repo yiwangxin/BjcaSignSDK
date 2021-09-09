@@ -1,6 +1,6 @@
 {
   "name": "BjcaSignSDK",
-  "version": "3.7.1",
+  "version": "4.0.0",
   "license": {
     "type": "MIT"
   },
@@ -11,15 +11,15 @@
   "summary": "北京数字医信签名SDK",
   "source": {
     "git": "https://github.com/yiwangxin/BjcaSignSDK.git",
-    "tag": "3.7.1"
+    "tag": "4.0.0"
   },
   "platforms": {
     "ios": "10.0"
   },
   "vendored_frameworks": "BjcaSignSDK/BjcaSignSDK.framework",
   "dependencies": {
-    "YWXSignSDK/YWXBjcaSignSDK": [
-      "~> 3.7.1"
+    "YWXSignSDK": [
+      "~> 4.0.0"
     ]
   }
 }

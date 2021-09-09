@@ -15,6 +15,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic, copy, readonly) NSString *phoneNumber;
 
+/// 点击修改
+@property (nonatomic, copy) void (^didClickChange)(void);
+
 -(void)inputClientId:(NSString *)clientId;
 
 -(void)inputPhoneNumber:(NSString *)phone;

@@ -98,13 +98,9 @@ EOM
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/YWXSignSDK/YWXSignSDK/Core/YWXSignSDK.bundle"
-  install_resource "${PODS_ROOT}/YWXSignSDK/YWXSignSDK/Support/Optional/YWXBjcaSignSDK/keyBoard.bundle"
-  install_resource "${PODS_ROOT}/YWXSignSDK/YWXSignSDK/Support/Optional/YWXBjcaSignSDK/Signet-SDK-Bundle.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/YWXSignSDK/YWXSignSDK/Core/YWXSignSDK.bundle"
-  install_resource "${PODS_ROOT}/YWXSignSDK/YWXSignSDK/Support/Optional/YWXBjcaSignSDK/keyBoard.bundle"
-  install_resource "${PODS_ROOT}/YWXSignSDK/YWXSignSDK/Support/Optional/YWXBjcaSignSDK/Signet-SDK-Bundle.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

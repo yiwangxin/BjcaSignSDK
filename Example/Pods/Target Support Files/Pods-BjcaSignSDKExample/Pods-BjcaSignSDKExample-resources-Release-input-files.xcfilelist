@@ -1,4 +1,2 @@
 ${PODS_ROOT}/Target Support Files/Pods-BjcaSignSDKExample/Pods-BjcaSignSDKExample-resources.sh
 ${PODS_ROOT}/YWXSignSDK/YWXSignSDK/Core/YWXSignSDK.bundle
-${PODS_ROOT}/YWXSignSDK/YWXSignSDK/Support/Optional/YWXBjcaSignSDK/keyBoard.bundle
-${PODS_ROOT}/YWXSignSDK/YWXSignSDK/Support/Optional/YWXBjcaSignSDK/Signet-SDK-Bundle.bundle

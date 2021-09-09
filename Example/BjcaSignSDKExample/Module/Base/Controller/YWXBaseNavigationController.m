@@ -15,8 +15,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
     self.navigationBar.translucent = NO;
+    UINavigationBar *navigationBar = self.navigationBar;
+    [navigationBar setShadowImage:[UIImage new]];
 }
 
 /*

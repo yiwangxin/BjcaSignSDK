@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		7CFE1E80B93867EE07D483A602B973A5 /* YWXSignSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = C558A58B41BAFA8DFE4C8B28CC02A901 /* Build configuration list for PBXAggregateTarget "YWXSignSDK" */;
+			buildConfigurationList = 33288BD5B95A44338A3F252D31D0B92F /* Build configuration list for PBXAggregateTarget "YWXSignSDK" */;
 			buildPhases = (
 			);
 			dependencies = (
@@ -22,7 +22,7 @@
 			buildPhases = (
 			);
 			dependencies = (
-				EDA75C8AB50B797E948ED825FDDCD45A /* PBXTargetDependency */,
+				049DD3E6540CA8AD6DDD072FC7D253E2 /* PBXTargetDependency */,
 			);
 			name = BjcaSignSDK;
 		};
@@ -35,21 +35,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1BEB61CF40C9C6D17987102A366C3B95 /* PBXContainerItemProxy */ = {
+		50B5A06856988BBF3C6D80DAE9DCBBA7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CF14FF04D7A8B3B6A1C63059CD36A9AC;
 			remoteInfo = BjcaSignSDK;
 		};
-		C2E801190DB602001BCD1B9C93003AB7 /* PBXContainerItemProxy */ = {
+		610D542308B56930BBDE0CDBB8CFCFE5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7CFE1E80B93867EE07D483A602B973A5;
 			remoteInfo = YWXSignSDK;
 		};
-		E7D87D4AFB8034E45B6B7378318A56D8 /* PBXContainerItemProxy */ = {
+		DCF890825473CEC9D2A3765211DBDE29 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -60,30 +60,27 @@
 
 /* Begin PBXFileReference section */
 		09618B7715663FC7A4A0CF3A20852C5E /* BjcaSignSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BjcaSignSDK.release.xcconfig; sourceTree = "<group>"; };
-		0B8F1732A8853F908783F6855526A169 /* YWXSignSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YWXSignSDK.framework; path = YWXSignSDK/Core/YWXSignSDK.framework; sourceTree = "<group>"; };
 		11CDBAC76A36A68EB2AFA0B6B83BCEB4 /* Pods_BjcaSignSDKExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BjcaSignSDKExample.framework; path = "Pods-BjcaSignSDKExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B9260BBDF6C315BBFB05DF2F8B3231C /* Pods-BjcaSignSDKExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BjcaSignSDKExample.modulemap"; sourceTree = "<group>"; };
 		2CABB11F4AA29A7F712F502A35BA814B /* BjcaSignSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BjcaSignSDK.debug.xcconfig; sourceTree = "<group>"; };
+		2E56B825F3519F64F81B077A549F7D83 /* YWXSignSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YWXSignSDK.framework; path = YWXSignSDK/Core/YWXSignSDK.framework; sourceTree = "<group>"; };
 		34FB16E64961D2CC9361FEB8EA0B4E71 /* BjcaSignSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BjcaSignSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3659F6915B5A7BC3C986DCB0CC15C203 /* YWXBjcaSignSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YWXBjcaSignSDK.framework; path = YWXSignSDK/Support/Optional/YWXBjcaSignSDK/YWXBjcaSignSDK.framework; sourceTree = "<group>"; };
-		377AD0489F5E3C1C8332733F2CC589AB /* YWXSignSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YWXSignSDK.release.xcconfig; sourceTree = "<group>"; };
-		4159B386F25F941B7C5E8F52D9B66C11 /* YWXSignSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YWXSignSDK.debug.xcconfig; sourceTree = "<group>"; };
+		46CF5FBE92BF0EFABD8222B5A2B22F7C /* YWXSignFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YWXSignFoundation.framework; path = YWXSignSDK/Support/Required/YWXSignFoundation.framework; sourceTree = "<group>"; };
+		516B94D3437714675F82AF302BCA2E12 /* YWXSignSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YWXSignSDK.release.xcconfig; sourceTree = "<group>"; };
 		5D34BEE8C29B6D4859DA6DC60E1B3D4B /* Pods-BjcaSignSDKExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BjcaSignSDKExample-acknowledgements.plist"; sourceTree = "<group>"; };
 		6B5D0A8F221A82620380FAFF6D5DCF8B /* Pods-BjcaSignSDKExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BjcaSignSDKExample-umbrella.h"; sourceTree = "<group>"; };
 		6BB8CF6828691A292622A6F2152AA55C /* Pods-BjcaSignSDKExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BjcaSignSDKExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		71CEA2AD2FB3DCD55818514C1DF57D8A /* YWXSignSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YWXSignSDK.debug.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7564E5B39DF7E3BEE567CB55855CBF5A /* Pods-BjcaSignSDKExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BjcaSignSDKExample.release.xcconfig"; sourceTree = "<group>"; };
-		7C0B918B9FE73A61B5B3E6C8A8AD705F /* keyBoard.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = keyBoard.bundle; path = YWXSignSDK/Support/Optional/YWXBjcaSignSDK/keyBoard.bundle; sourceTree = "<group>"; };
 		87C27EF659FF3048F3BCD19E98E1B125 /* Pods-BjcaSignSDKExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BjcaSignSDKExample-resources.sh"; sourceTree = "<group>"; };
+		87F5B9C5B08D6A95CA50E4EA9CDF3BEF /* YWXSignSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = YWXSignSDK.bundle; path = YWXSignSDK/Core/YWXSignSDK.bundle; sourceTree = "<group>"; };
 		9A017DFD86110A27A21807D939DC5DC6 /* Pods-BjcaSignSDKExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BjcaSignSDKExample-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AA6A439852EBEDF1C0CB99F4B282AB21 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B6960B068945A930F7242C1141B2A7E2 /* BjcaSignSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BjcaSignSDK.framework; path = BjcaSignSDK/BjcaSignSDK.framework; sourceTree = "<group>"; };
 		B8F9ACF826D4E20DF0270CA647352568 /* Pods-BjcaSignSDKExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BjcaSignSDKExample-dummy.m"; sourceTree = "<group>"; };
-		C4A68E9A8E867E6F646E17C1DAA54C02 /* Signet-SDK-Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = "Signet-SDK-Bundle.bundle"; path = "YWXSignSDK/Support/Optional/YWXBjcaSignSDK/Signet-SDK-Bundle.bundle"; sourceTree = "<group>"; };
-		CDB2420E0201CC8F43C5C8A5002FEAE6 /* YWXSignSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = YWXSignSDK.bundle; path = YWXSignSDK/Core/YWXSignSDK.bundle; sourceTree = "<group>"; };
 		E665BC103DB4BC1309845C51FD1D2EAA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		FCCD1BAC2150D49D69CF80B1B8D71EAE /* YWXSignFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YWXSignFoundation.framework; path = YWXSignSDK/Support/Required/YWXSignFoundation.framework; sourceTree = "<group>"; };
 		FFFA7586F245F0E34511A78C4E34BEE9 /* Pods-BjcaSignSDKExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BjcaSignSDKExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +96,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05A1F693DB8DC091DA16F39B3D1A7079 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				87F5B9C5B08D6A95CA50E4EA9CDF3BEF /* YWXSignSDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		081D2425111E5694858D9E976FA84A80 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +112,14 @@
 				AA6A439852EBEDF1C0CB99F4B282AB21 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		08FBAD8E51BCCC387E7CDFC475F566BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46CF5FBE92BF0EFABD8222B5A2B22F7C /* YWXSignFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		10CBF7BAE6534A56BB7FA97242110E93 /* Pods-BjcaSignSDKExample */ = {
@@ -126,22 +139,6 @@
 			path = "Target Support Files/Pods-BjcaSignSDKExample";
 			sourceTree = "<group>";
 		};
-		1F2014BA1A7120367E7A7B1DCDC5FF8E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3659F6915B5A7BC3C986DCB0CC15C203 /* YWXBjcaSignSDK.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1F27B212FEAEAC3C4475FA2754E467D1 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				CDB2420E0201CC8F43C5C8A5002FEAE6 /* YWXSignSDK.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		3A3BFFCB5E008CE3EF5F95C94625866A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,22 +149,14 @@
 			path = "Example/Pods/Target Support Files/BjcaSignSDK";
 			sourceTree = "<group>";
 		};
-		449104DB11581D5910EA14F58A6255D1 /* Support Files */ = {
+		3EB982F38988B67B11FCDB1F9E56339A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4159B386F25F941B7C5E8F52D9B66C11 /* YWXSignSDK.debug.xcconfig */,
-				377AD0489F5E3C1C8332733F2CC589AB /* YWXSignSDK.release.xcconfig */,
+				71CEA2AD2FB3DCD55818514C1DF57D8A /* YWXSignSDK.debug.xcconfig */,
+				516B94D3437714675F82AF302BCA2E12 /* YWXSignSDK.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/YWXSignSDK";
-			sourceTree = "<group>";
-		};
-		495E0961E89EAC5AD72BD72182DB24BB /* YWXSignFoundation */ = {
-			isa = PBXGroup;
-			children = (
-				4F2D347FB823D702CE28E76FA0195B54 /* Frameworks */,
-			);
-			name = YWXSignFoundation;
 			sourceTree = "<group>";
 		};
 		4F114D54E35D211E8B7B90A247A6EC8F /* Products */ = {
@@ -178,12 +167,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4F2D347FB823D702CE28E76FA0195B54 /* Frameworks */ = {
+		4FDA379C3EB22B4E1E5E517468DD0DE2 /* YWXSignFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				FCCD1BAC2150D49D69CF80B1B8D71EAE /* YWXSignFoundation.framework */,
+				08FBAD8E51BCCC387E7CDFC475F566BA /* Frameworks */,
 			);
-			name = Frameworks;
+			name = YWXSignFoundation;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -194,30 +183,40 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7614E2D753330C30EDFDBB49EEA6E291 /* Frameworks */ = {
+		862D70CA46C86DBA537FD0B4DDCD55D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0B8F1732A8853F908783F6855526A169 /* YWXSignSDK.framework */,
+				2E56B825F3519F64F81B077A549F7D83 /* YWXSignSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		86134540A9B0C4670D8449B7848213EF /* Core */ = {
+		8A08DB63B96AD2BEC2AE9CF88097566C /* YWXSignSDK */ = {
 			isa = PBXGroup;
 			children = (
-				7614E2D753330C30EDFDBB49EEA6E291 /* Frameworks */,
-				1F27B212FEAEAC3C4475FA2754E467D1 /* Resources */,
+				977503289EEB6CF02C017330E45AE0F1 /* Core */,
+				3EB982F38988B67B11FCDB1F9E56339A /* Support Files */,
+				4FDA379C3EB22B4E1E5E517468DD0DE2 /* YWXSignFoundation */,
+			);
+			name = YWXSignSDK;
+			path = YWXSignSDK;
+			sourceTree = "<group>";
+		};
+		977503289EEB6CF02C017330E45AE0F1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				862D70CA46C86DBA537FD0B4DDCD55D0 /* Frameworks */,
+				05A1F693DB8DC091DA16F39B3D1A7079 /* Resources */,
 			);
 			name = Core;
 			sourceTree = "<group>";
 		};
-		920F2CFFCA41777B1607543ABB3910CA /* Resources */ = {
+		A0C84E5559478DC1ED0D10FAE1B2C3E1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7C0B918B9FE73A61B5B3E6C8A8AD705F /* keyBoard.bundle */,
-				C4A68E9A8E867E6F646E17C1DAA54C02 /* Signet-SDK-Bundle.bundle */,
+				8A08DB63B96AD2BEC2AE9CF88097566C /* YWXSignSDK */,
 			);
-			name = Resources;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		A3D635DC48C88390F9AE49F33303E13B /* BjcaSignSDK */ = {
@@ -229,35 +228,6 @@
 			);
 			name = BjcaSignSDK;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		AD4A055813610A4D53FF8F5E9CBF70C3 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B46C0EE73C6CE2591CE6AF5E48B487C2 /* YWXSignSDK */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		B46C0EE73C6CE2591CE6AF5E48B487C2 /* YWXSignSDK */ = {
-			isa = PBXGroup;
-			children = (
-				86134540A9B0C4670D8449B7848213EF /* Core */,
-				449104DB11581D5910EA14F58A6255D1 /* Support Files */,
-				C38DE6E0A70813CF381D3D0AD6F1F433 /* YWXBjcaSignSDK */,
-				495E0961E89EAC5AD72BD72182DB24BB /* YWXSignFoundation */,
-			);
-			name = YWXSignSDK;
-			path = YWXSignSDK;
-			sourceTree = "<group>";
-		};
-		C38DE6E0A70813CF381D3D0AD6F1F433 /* YWXBjcaSignSDK */ = {
-			isa = PBXGroup;
-			children = (
-				1F2014BA1A7120367E7A7B1DCDC5FF8E /* Frameworks */,
-				920F2CFFCA41777B1607543ABB3910CA /* Resources */,
-			);
-			name = YWXBjcaSignSDK;
 			sourceTree = "<group>";
 		};
 		C3F25C468D9FC39959AE75E1DBF81079 /* Development Pods */ = {
@@ -282,7 +252,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				C3F25C468D9FC39959AE75E1DBF81079 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				AD4A055813610A4D53FF8F5E9CBF70C3 /* Pods */,
+				A0C84E5559478DC1ED0D10FAE1B2C3E1 /* Pods */,
 				4F114D54E35D211E8B7B90A247A6EC8F /* Products */,
 				C41E20B6E0BF1FD3DB1D552D0A0EEA51 /* Targets Support Files */,
 			);
@@ -330,8 +300,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				DBFEBA5C344F7A54A93055036A062A69 /* PBXTargetDependency */,
-				3E5EE333BD817B1F3AD2A5309D71E589 /* PBXTargetDependency */,
+				4EAE572D35E28C64E9D7909D5585CFE2 /* PBXTargetDependency */,
+				29A28286CEE8516542F9A480E73A8E7F /* PBXTargetDependency */,
 			);
 			name = "Pods-BjcaSignSDKExample";
 			productName = "Pods-BjcaSignSDKExample";
@@ -389,27 +359,62 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3E5EE333BD817B1F3AD2A5309D71E589 /* PBXTargetDependency */ = {
+		049DD3E6540CA8AD6DDD072FC7D253E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YWXSignSDK;
 			target = 7CFE1E80B93867EE07D483A602B973A5 /* YWXSignSDK */;
-			targetProxy = C2E801190DB602001BCD1B9C93003AB7 /* PBXContainerItemProxy */;
+			targetProxy = DCF890825473CEC9D2A3765211DBDE29 /* PBXContainerItemProxy */;
 		};
-		DBFEBA5C344F7A54A93055036A062A69 /* PBXTargetDependency */ = {
+		29A28286CEE8516542F9A480E73A8E7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YWXSignSDK;
+			target = 7CFE1E80B93867EE07D483A602B973A5 /* YWXSignSDK */;
+			targetProxy = 610D542308B56930BBDE0CDBB8CFCFE5 /* PBXContainerItemProxy */;
+		};
+		4EAE572D35E28C64E9D7909D5585CFE2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BjcaSignSDK;
 			target = CF14FF04D7A8B3B6A1C63059CD36A9AC /* BjcaSignSDK */;
-			targetProxy = 1BEB61CF40C9C6D17987102A366C3B95 /* PBXContainerItemProxy */;
-		};
-		EDA75C8AB50B797E948ED825FDDCD45A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YWXSignSDK;
-			target = 7CFE1E80B93867EE07D483A602B973A5 /* YWXSignSDK */;
-			targetProxy = E7D87D4AFB8034E45B6B7378318A56D8 /* PBXContainerItemProxy */;
+			targetProxy = 50B5A06856988BBF3C6D80DAE9DCBBA7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1129A55B8273ECD2CF4DBCCDFF2DEA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 516B94D3437714675F82AF302BCA2E12 /* YWXSignSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26E7A2E29EB1E8D2258E3642FBC5BC16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71CEA2AD2FB3DCD55818514C1DF57D8A /* YWXSignSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		63742E2F725417825091E4A1DC4FC329 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7564E5B39DF7E3BEE567CB55855CBF5A /* Pods-BjcaSignSDKExample.release.xcconfig */;
@@ -482,23 +487,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7D0A5E3B05DA020FF18951BE5283D39D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4159B386F25F941B7C5E8F52D9B66C11 /* YWXSignSDK.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -647,24 +635,6 @@
 			};
 			name = Debug;
 		};
-		F4CBAD5A667283F5882419E9482E5EEA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 377AD0489F5E3C1C8332733F2CC589AB /* YWXSignSDK.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		F9345C335C11E58D855E9145E125F4A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 09618B7715663FC7A4A0CF3A20852C5E /* BjcaSignSDK.release.xcconfig */;
@@ -686,6 +656,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		33288BD5B95A44338A3F252D31D0B92F /* Build configuration list for PBXAggregateTarget "YWXSignSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E7A2E29EB1E8D2258E3642FBC5BC16 /* Debug */,
+				1129A55B8273ECD2CF4DBCCDFF2DEA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -709,15 +688,6 @@
 			buildConfigurations = (
 				796056BCB5B49F594BEDFDFCC3887AF5 /* Debug */,
 				63742E2F725417825091E4A1DC4FC329 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C558A58B41BAFA8DFE4C8B28CC02A901 /* Build configuration list for PBXAggregateTarget "YWXSignSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7D0A5E3B05DA020FF18951BE5283D39D /* Debug */,
-				F4CBAD5A667283F5882419E9482E5EEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

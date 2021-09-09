@@ -10,6 +10,8 @@
 #import "YWXSignBusinessCell.h"
 #import "YWXSignBusinessSectionHeaderView.h"
 
+static NSString *KEnvironmentKeyName = @"serverType";
+static NSString *KPhoneNumberKeyName = @"phoneNumber";
 
 @interface YWXBaseBusinessViewController ()<UITableViewDelegate,UITableViewDataSource,YWXSignBusinessSectionHeaderViewDelegate>
 
@@ -29,16 +31,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIBarButtonItem * backButtonItem = [[UIBarButtonItem alloc] init];
+    backButtonItem.title = @"返回";
+    self.navigationItem.backBarButtonItem = backButtonItem;
     [self initUI];
     [self initData];
     [self.tableView reloadData];
-    
+    [self getCurrentEnvironment];
 }
 
 -(void)initData {
     self.businessGroupModelArray = [YWXSignBusinessGroupModel businessGroupModelArray];
     [self.clientInfoView inputClientId:@"2015112716143758"];
     [self.clientInfoView inputPhoneNumber:@"18519115509"];
+    NSString *phone = [[NSUserDefaults standardUserDefaults] valueForKey:KPhoneNumberKeyName];
+    if (phone.length > 0) {
+        [self.clientInfoView inputPhoneNumber:phone];
+    }
 }
 
 -(void)updateFooterInfoWithVersion:(NSString *)version
@@ -56,14 +65,14 @@
     self.view.backgroundColor = UIColor.whiteColor;
     [self.view addSubview:self.clientInfoView];
     [self.clientInfoView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.mas_equalTo(self.view.mas_top).offset(0);
-        make.leading.mas_equalTo(self.view.mas_leading).offset(0);
-        make.trailing.mas_equalTo(self.view.mas_trailing).offset(0);
+        make.top.mas_equalTo(self.view.mas_top).offset(10);
+        make.leading.mas_equalTo(self.view.mas_leading).offset(10);
+        make.trailing.mas_equalTo(self.view.mas_trailing).offset(-10);
     }];
     
     [self.view addSubview:self.tableView];
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.mas_equalTo(self.clientInfoView.mas_bottom);
+        make.top.mas_equalTo(self.clientInfoView.mas_bottom).offset(10);
         make.leading.mas_equalTo(self.view.mas_leading);
         make.trailing.mas_equalTo(self.view.mas_trailing);
         make.bottom.mas_equalTo(self.view.mas_bottom);
@@ -125,10 +134,47 @@
     
 }
 
+- (void)changeEnvironmentWith:(YWXDemoEnvironment)currentEnvironment {
+    NSLog(@"changeEnvironmentWith");
+}
+
+-(void)cleanCert {
+    
+}
+
+- (void)getCurrentEnvironment {
+    __weak typeof(self) weakSelf = self;
+    [YWXEnvironmentViewController getCurrentEnviromentWithEnvironmentKeyName:KEnvironmentKeyName
+                                                      environmentChangeBlack:^(YWXDemoEnvironment currentEnvironment) {
+        [weakSelf changeEnvironmentWith:currentEnvironment];
+    }];
+}
+
+- (void)didClickChangeButton {
+    [self cleanCert];
+    [self getCurrentEnvironment];
+}
+
+- (void)savePhoneNumber {
+    [[NSUserDefaults standardUserDefaults] setObject:self.phoneNumber forKey:KPhoneNumberKeyName];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+}
+
+- (void)cleanPhoneNumber {
+    [[NSUserDefaults standardUserDefaults] setObject:@"" forKey:KPhoneNumberKeyName];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+}
+
 #pragma mark - 懒加载
 -(YWXClientIdInfoView *)clientInfoView {
     if (_clientInfoView == nil) {
         _clientInfoView = [[YWXClientIdInfoView alloc] init];
+        _clientInfoView.layer.cornerRadius = 10;
+        _clientInfoView.layer.masksToBounds = YES;
+        __weak typeof(self) weakSelf = self;
+        _clientInfoView.didClickChange = ^{
+            [weakSelf didClickChangeButton];
+        };
     }
     return _clientInfoView;
 }
@@ -140,6 +186,7 @@
         _tableView.dataSource = self;
         _tableView.sectionHeaderHeight = 44;
         _tableView.tableFooterView = [[UIView alloc] init];
+        _tableView.backgroundColor = [UIColor whiteColor];
     }
     return _tableView;
 }

@@ -683,10 +683,10 @@
 		DA7DCFE6264BC6C0004123AB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				DA7DCFE7264BC6C0004123AB /* ViewController.m */,
-				DA7DCFE8264BC6C0004123AB /* MainTabBarController.m */,
-				DA7DCFE9264BC6C0004123AB /* MainTabBarController.h */,
 				DA7DCFEA264BC6C0004123AB /* ViewController.h */,
+				DA7DCFE7264BC6C0004123AB /* ViewController.m */,
+				DA7DCFE9264BC6C0004123AB /* MainTabBarController.h */,
+				DA7DCFE8264BC6C0004123AB /* MainTabBarController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
