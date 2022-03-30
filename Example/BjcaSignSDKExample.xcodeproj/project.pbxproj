@@ -1160,11 +1160,12 @@
 				DEVELOPMENT_TEAM = Q62L4Y97PK;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = BjcaSignSDKExample/Support/Files/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.7.1;
+				MARKETING_VERSION = 4.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.51trust.BjcaSignSDKExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1181,11 +1182,12 @@
 				DEVELOPMENT_TEAM = Q62L4Y97PK;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = BjcaSignSDKExample/Support/Files/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.7.1;
+				MARKETING_VERSION = 4.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.51trust.BjcaSignSDKExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

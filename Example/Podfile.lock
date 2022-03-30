@@ -1,11 +1,11 @@
 PODS:
-  - BjcaSignSDK (4.0.0):
-    - YWXSignSDK (~> 4.0.0)
-  - YWXSignSDK (4.0.0):
-    - YWXSignSDK/Core (= 4.0.0)
-  - YWXSignSDK/Core (4.0.0):
+  - BjcaSignSDK (4.0.4):
+    - YWXSignSDK (~> 4.0.4)
+  - YWXSignSDK (4.0.4):
+    - YWXSignSDK/Core (= 4.0.4)
+  - YWXSignSDK/Core (4.0.4):
     - YWXSignSDK/YWXSignFoundation
-  - YWXSignSDK/YWXSignFoundation (4.0.0)
+  - YWXSignSDK/YWXSignFoundation (4.0.4)
 
 DEPENDENCIES:
   - BjcaSignSDK (from `../`)
@@ -19,9 +19,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BjcaSignSDK: 2d11b6c03162a3a1b4ab69dcb5eb7b9fb1001cd4
-  YWXSignSDK: 5a3eb742ac8c440e9bd049584e7063832a3b48f1
+  BjcaSignSDK: 8f985abb2a3d4d97cb0c956e15710c8875098593
+  YWXSignSDK: 970ac1271767557d4f0fc063b116f459f53b3843
 
 PODFILE CHECKSUM: 6fff8a6f4c3cad020b3be94898fa75d84bb5b55d
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.2
