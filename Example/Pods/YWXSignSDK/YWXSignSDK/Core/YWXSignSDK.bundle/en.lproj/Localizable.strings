@@ -53,13 +53,14 @@
 "YWXCertDetailGender" = "Gender";
 "YWXCertDetailHospital" = "Hospital";
 "YWXCertDetailCertType" = "Ceritficate type";
-"YWXCertDetailDescription" = "Identity of this personnel has been reviewed and qualified by Beijing Shuziyixin Technology Co., Ltd";
+"YWXCertDetailDescription" = "Identity of this personnel has been reviewed and qualified by ";
+"YWXCertDetailDescriptionSecond" = "";
 "YWXCertDetailIssueAgency" = "Issue agency";
 "YWXCertDetailIssueDate" = "Issue date";
 "YWXCertDetailExpirationDate" = "Expiration date";
 "YWXCertDetailCertDescription" = "Certificate Description";
 "YWXCertDetailCertCantDescription" = "This authorization certificate is the only valid text and cannot be photocopied, altered, or transferred.";
-"YWXCertDetailCertLawDescription" = "Beijing Shuziyixin Technology Co., Lt.has the final interpretation right of this authorization certificate";
+"YWXCertDetailCertLawDescription" = " has the final interpretation right of this authorization certificate";
 "YWXCertDetailDigitalCertificate" = "Digital certificate";
 "YWXStampDrawBackgroundNoteText" = "Signature Collection";
 "YWXStampDrawSaveText" = "Save";

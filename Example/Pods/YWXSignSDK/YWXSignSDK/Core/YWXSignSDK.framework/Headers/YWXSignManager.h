@@ -76,6 +76,12 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param completion 回调
 - (void)showCertDetailWithCompletion:(nullable YWXCompletion)completion;
 
+/// 打开证书详情
+/// @param firmId 子厂商id
+/// @param completion 回调
+- (void)showCertDetailWithFirmId:(nullable NSString *)firmId
+                      completion:(nullable YWXCompletion)completion;
+
 /// 移除本地证书。
 - (BOOL)clearCert;
 

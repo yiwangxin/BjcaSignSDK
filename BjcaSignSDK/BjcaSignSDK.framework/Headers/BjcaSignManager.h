@@ -106,6 +106,19 @@ NS_ASSUME_NONNULL_BEGIN
               navColor:(UIColor * _Nullable)navColor
           navFontColor:(UIColor * _Nullable)fontColor;
 
+/// 打开证书详情页
+/// @param clientId 第三方对应的clientId
+/// @param firmId   子厂商id
+/// @param viewCtrl 当前活跃的ctrl
+/// @param navColor 导航栏颜色，可为nil
+/// @param fontColor 导航栏字体颜色，可为nil
+- (void)bjcaCertDetail:(NSString *)clientId
+                firmId:(nullable NSString *)firmId
+           curViewCtrl:(UIViewController*)viewCtrl
+              navColor:(UIColor * _Nullable)navColor
+          navFontColor:(UIColor * _Nullable)fontColor;
+
+
 /// 获取用户信息
 /// @param clientId 第三方对应的clientId
 - (void)bjcaUserInfo:(NSString *)clientId;

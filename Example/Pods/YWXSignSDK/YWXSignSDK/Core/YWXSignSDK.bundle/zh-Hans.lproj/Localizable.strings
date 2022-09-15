@@ -53,13 +53,14 @@
 "YWXCertDetailGender" = "性别";
 "YWXCertDetailHospital" = "单位";
 "YWXCertDetailCertType" = "资格证书类型";
-"YWXCertDetailDescription" = "该人员已通过北京数字认证股份有限公司线下资格审定及真实身份真实性验证，该人员身份及信息真实可靠，特此认证。";
+"YWXCertDetailDescription" = "该人员已通过";
+"YWXCertDetailDescriptionSecond" = "线下资格审定及真实身份真实性验证，该人员身份及信息真实可靠，特此认证。";
 "YWXCertDetailIssueAgency" = "颁发机构";
 "YWXCertDetailIssueDate" = "颁发时间";
 "YWXCertDetailExpirationDate" = "有效时间";
 "YWXCertDetailCertDescription" = "证书说明";
 "YWXCertDetailCertCantDescription" = "本授权证书以证书为有效文本，不得影印、涂改、转让。";
-"YWXCertDetailCertLawDescription" = "北京数字认证股份有限公司拥有此授权证书的最终解释权";
+"YWXCertDetailCertLawDescription" = "拥有此授权证书的最终解释权";
 "YWXCertDetailDigitalCertificate" = "医网信数字证书";
 "YWXStampDrawBackgroundNoteText" = "签章采集";
 "YWXStampDrawSaveText" = "保存";
