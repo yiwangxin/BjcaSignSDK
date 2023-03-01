@@ -34,6 +34,6 @@ s.platform = :ios, '10.0'
 s.vendored_frameworks = 'BjcaSignSDK/BjcaSignSDK.framework'
 
 #依赖新库YWXSignSDK
-s.dependency 'YWXSignSDK', '~> 4.0.5'
+s.dependency 'YWXSignSDK', '~> 4.0.6'
 
 end
