@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/BjcaSignManager.h</key>
 		<data>
-		i1Jj53Kfp4c8La7MeZ84c5RiwRo=
+		vrJa92UgV1hPG1bESQfxqUaupuA=
 		</data>
 		<key>Headers/BjcaSignSDK.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pviOXIX0yhDt0xtX3eMSu9q3sIk=
+		RtGXcayCYK5bIL2v0lCTcni2ylw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -42,11 +42,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			i1Jj53Kfp4c8La7MeZ84c5RiwRo=
+			vrJa92UgV1hPG1bESQfxqUaupuA=
 			</data>
 			<key>hash2</key>
 			<data>
-			RqJqmofmwZaBzBe1R8vPrdRWwS4pSogfjQWCE/Yxv9U=
+			4C1Yy9ft0zMOZZqjJMX0pfydZfaBIiJelgTAMVOzO04=
 			</data>
 		</dict>
 		<key>Headers/BjcaSignSDK.h</key>

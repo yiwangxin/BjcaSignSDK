@@ -170,6 +170,14 @@ NS_ASSUME_NONNULL_BEGIN
          userClientId:(NSString *)clientId
           curViewCtrl:(UIViewController*)viewCtrl;
 
+/// 开始进行Oauth登录(APP使用)
+/// @param uuid 请求的uuid
+/// @param grantOpenId 授权人id
+/// @param grantUserName 授权人名称
+-(void)startOauthLogin:(NSString *)uuid
+           grantOpenId:(nullable NSString *)grantOpenId
+         grantUserName:(nullable NSString *)grantUserName;
+
 #pragma mark - 二维码
 
 /// 二维码扫码字符串签名
@@ -179,6 +187,12 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)bjcaQrSign:(NSString *)qrString
       userClientId:(NSString *)clientId
        curViewCtrl:(UIViewController*)viewCtrl;
+
+/// 对二维码信息进行识别处理
+/// @param qrString 二维码字符串信息
+/// @param isHandleGrantOauth 是否处理授权登录（如果存在授权关系会以错误码的形式抛出）
+- (void)qrDisposeWithString:(NSString *)qrString
+         isHandleGrantOauth:(BOOL)isHandleGrantOauth;
 
 #pragma mark - 自动签名
 
