@@ -1,5 +1,5 @@
 PODS:
-  - BjcaSignSDK (4.0.5):
+  - BjcaSignSDK (4.0.6):
     - YWXSignSDK (~> 4.0.5)
   - YWXSignSDK (4.0.5):
     - YWXSignSDK/Core (= 4.0.5)
@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BjcaSignSDK: e634ae95b1c9e11cbd2339a2c12f9ce445a31be7
+  BjcaSignSDK: 6aada680d44174f0ed94d6804b598df298a92627
   YWXSignSDK: df134696adde05310d28b2d302628a00fe1c5533
 
 PODFILE CHECKSUM: 6fff8a6f4c3cad020b3be94898fa75d84bb5b55d
