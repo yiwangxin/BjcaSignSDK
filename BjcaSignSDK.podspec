@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 s.name         = 'BjcaSignSDK'
 
 #版本号
-s.version      = '4.0.8'
+s.version      = '4.1.0'
 
 #许可证
 s.license      = { :type => 'MIT' }
@@ -22,7 +22,7 @@ s.summary      = "北京数字医信签名SDK"
 s.source       = { :git => 'https://github.com/yiwangxin/BjcaSignSDK.git', :tag => s.version }
 
 #支持最小系统版本
-s.platform = :ios, '10.0'
+s.platform = :ios, '12.0'
 
 #需要包含的源文件,没有要开源出来的
 #s.source_files = 'BjcaSignSDK/BjcaSignSDK.framework/Headers/*.{h}'
@@ -34,6 +34,6 @@ s.platform = :ios, '10.0'
 s.vendored_frameworks = 'BjcaSignSDK/BjcaSignSDK.framework'
 
 #依赖新库YWXSignSDK
-s.dependency 'YWXSignSDK', '~> 4.0.8'
+s.dependency 'YWXSignSDK', '~> 4.1.0'
 
 end

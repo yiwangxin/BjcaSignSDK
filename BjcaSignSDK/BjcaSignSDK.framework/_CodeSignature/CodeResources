@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BjcaPublicConst.h</key>
 		<data>
-		UaLK1wCs9jm0bpwY8nGlkKvwy7c=
+		onV87j6vVueGxmFYvkvTqfFLiFk=
 		</data>
 		<key>Headers/BjcaSignManager.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+Cvr0vvHS71MRKirDKlKGKCpkRs=
+		qLilSqOW3UmniT84MrYHq3hbDPo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		rAeqDXtmhxuMfoL3GqEacinNvCA=
+		unNBjVlcp4vw/3zgS6uH79qVjlg=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -31,11 +31,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UaLK1wCs9jm0bpwY8nGlkKvwy7c=
+			onV87j6vVueGxmFYvkvTqfFLiFk=
 			</data>
 			<key>hash2</key>
 			<data>
-			9WWe1Lz6ZO8ad6D0hGu8sGQFkNbNifKwrMEr/mvFvac=
+			0bZPixwW+MPhxfyHUBUMmJ6TZTPRbpF08FS4F0l5X/A=
 			</data>
 		</dict>
 		<key>Headers/BjcaSignManager.h</key>
@@ -64,11 +64,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rAeqDXtmhxuMfoL3GqEacinNvCA=
+			unNBjVlcp4vw/3zgS6uH79qVjlg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ry6dCez/UQ4t1+DQb2HbIGAlI/htRXKQK01ICVCGv9g=
+			84YyoUpDXyr6CFuVun8qJSiAnv37PRdAAP1V8v4/96o=
 			</data>
 		</dict>
 	</dict>
