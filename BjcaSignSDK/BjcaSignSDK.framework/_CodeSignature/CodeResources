@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qLilSqOW3UmniT84MrYHq3hbDPo=
+		2y6Tp+58uDyzJLLDMWYcSGuWaN0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -29,10 +29,6 @@
 	<dict>
 		<key>Headers/BjcaPublicConst.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			onV87j6vVueGxmFYvkvTqfFLiFk=
-			</data>
 			<key>hash2</key>
 			<data>
 			0bZPixwW+MPhxfyHUBUMmJ6TZTPRbpF08FS4F0l5X/A=
@@ -40,10 +36,6 @@
 		</dict>
 		<key>Headers/BjcaSignManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vrJa92UgV1hPG1bESQfxqUaupuA=
-			</data>
 			<key>hash2</key>
 			<data>
 			4C1Yy9ft0zMOZZqjJMX0pfydZfaBIiJelgTAMVOzO04=
@@ -51,10 +43,6 @@
 		</dict>
 		<key>Headers/BjcaSignSDK.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kVrtpZI6pvh72I95wnoMpi+fA4I=
-			</data>
 			<key>hash2</key>
 			<data>
 			kbIzBw7iBB4tIUo5RCNNavIi9D8LjKp3gW6n/V4i08w=
@@ -62,10 +50,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			unNBjVlcp4vw/3zgS6uH79qVjlg=
-			</data>
 			<key>hash2</key>
 			<data>
 			84YyoUpDXyr6CFuVun8qJSiAnv37PRdAAP1V8v4/96o=
